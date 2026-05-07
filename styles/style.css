@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: auto;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000125;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100dvh;
+  background-color: #f2f2f2;
+}
+
+.home_container {
+  width: 100%;
+  height: auto;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home_container_logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.home_container_campaigns {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  a {
+    text-decoration: none;
+    color: #f2f2f2;
+    background-color: #000125;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #000125cc;
+      transform: scale(0.95);
+    }
+  }
+}
+
+
+/* Campanha */
+
+.campaign_container {
+  width: 100%;
+  height: auto;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
